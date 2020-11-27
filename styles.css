@@ -11,11 +11,13 @@ body {
   'Aside Main'
   'Footer Footer'
   ;
-  height: fit-content;
+  height: 100vh;
 }
 
 header {
+  align-content: center;
   grid-area: Header;
+  justify-content: center;
 }
 
 aside {
