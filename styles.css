@@ -7,7 +7,7 @@
 body {
   display: grid;
   grid-template-columns: 20% 80%;
-  grid-template-rows: 20% 70% 10%;
+  grid-template-rows: 20% 106% 10%;
   grid-template-areas: 
   'Header Header'
   'Aside Main'
@@ -18,6 +18,7 @@ body {
 
 header {
   align-content: center;
+  background-color: #4b8d45;
   grid-area: Header;
   height: 100%;
   justify-content: center;
@@ -54,6 +55,11 @@ main {
 
 footer {
   grid-area: Footer;
+}
+
+.bears-label {
+  text-align: center;
+  width: 70%;
 }
 
 .bears-img {
