@@ -11,7 +11,7 @@ body {
   'Aside Main'
   'Footer Footer'
   ;
-  height: 100vh;
+  height: fit-content;
 }
 
 header {
@@ -23,11 +23,16 @@ aside {
 }
 
 main {
+  flex-wrap: wrap;
   grid-area: Main;
 }
 
 footer {
   grid-area: Footer;
+}
+
+.bears-img {
+  width: 70%;
 }
 
 .flex {
