@@ -24,6 +24,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   /* background-color: #4b8d45; */
+  align-content: center;
+
   grid-area: Header;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -96,6 +98,11 @@ footer {
   grid-area: Footer;
   justify-content: center;
   margin: 15px 0px;
+}
+
+.bears-label {
+  text-align: center;
+  width: 70%;
 }
 
 .bears-img {
