@@ -2,7 +2,7 @@
   /* border: 1px solid; */
   font-family: filicudi-solid, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0px;
   padding: 0px;
 }
@@ -52,7 +52,7 @@ ul {
 
 h1 {
   align-self: center;
-  color: #235fe2;
+  color: #ffffff;
   font-family: hwt-mardell, sans-serif;
   font-weight: 400;
   font-size: 5em;
@@ -131,15 +131,17 @@ footer {
 }
 
 .new-release-h2 {
-  text-align: center;
+  align-self: center;
   font-family: filicudi-solid, sans-serif;
-  font-size: 2em;
+  font-size: 3em;
   font-style: normal;
   font-weight: 400;
+  text-align: center;
   width: 70%;
 }
 
-.bears-h2 {
+.bears-h3 {
+  font-size: 2em;
   text-align: center;
   width: 70%;
 }
