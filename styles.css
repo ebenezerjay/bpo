@@ -10,7 +10,7 @@
 body {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 48% 106% 17%;
+  grid-template-rows: 78% 106% 17%;
   grid-template-areas: 
   'Header'
   'Main'
@@ -20,9 +20,9 @@ body {
 }
 
 header {
-  background-image: url("./images/native-american-hunting-lesson.jpg");
+  background-image: url("./images/angry-bear-door.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   /* background-color: #4b8d45; */
   align-content: center;
 
@@ -52,6 +52,7 @@ ul {
 
 h1 {
   align-self: center;
+  color: #235fe2;
   font-family: hwt-mardell, sans-serif;
   font-weight: 400;
   font-size: 5em;
@@ -120,7 +121,7 @@ footer {
 .nav-li,
 .footer-li {
   border-radius: 5px;
-  color: #0e0f18;
+  color: #235fe2;
   cursor: pointer;
   font-size: 30px;
   height: fit-content;
