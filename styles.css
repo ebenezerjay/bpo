@@ -9,12 +9,12 @@
 
 body {
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 100%;
   grid-template-rows: 48% 106% 17%;
   grid-template-areas: 
-  'Header Header'
-  'Aside Main'
-  'Footer Footer'
+  'Header'
+  'Main'
+  'Footer'
   ;
   height: fit-content;
 }
