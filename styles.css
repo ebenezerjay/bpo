@@ -156,6 +156,15 @@ footer {
   width: 100%;
 }
 
+.about-img {
+  width: 65%;
+}
+
+.about-paragraph1 {
+  text-align: center;
+  width: 65%;
+}
+
 .footer-ul {
   align-items: center;
   padding: 0px;
