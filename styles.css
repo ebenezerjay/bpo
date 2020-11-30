@@ -156,13 +156,34 @@ footer {
   width: 100%;
 }
 
-.about-img {
-  width: 65%;
+.about-paragraph-container,
+.about-img-container {
+  margin: 5px;
+  width: 47%;
 }
 
-.about-paragraph1 {
+.about-paragraph-container {
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-img-container {
+  align-items: center;
+}
+
+.about-img {
+  height: 60%;
+  width: 100%;
+}
+
+.about-paragraphs {
   text-align: center;
-  width: 65%;
+  /* width: 100%; */
+}
+
+.gallery-link {
+  padding-left: 4px;
 }
 
 .footer-ul {
