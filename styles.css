@@ -1,5 +1,4 @@
 * {
-  /* border: 1px solid; */
   font-family: filicudi-solid, sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -10,7 +9,7 @@
 body {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 78% 106% 17%;
+  grid-template-rows: 17% 106% 12%;
   grid-template-areas: 
   'Header'
   'Main'
@@ -20,25 +19,21 @@ body {
 }
 
 header {
-  background-image: url("./images/angry-bear-door.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  /* background-color: #4b8d45; */
+  border-bottom: 3px solid #235fe2;
   align-content: center;
-
   grid-area: Header;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin: auto;
+  width: 70%;
 }
 
 nav {
   align-content: center;
   align-self: center;
-  /* background-color: #f1fff0; */
-  /* border: 2px solid black; */
   height: fit-content;
   box-shadow: black;
-  width: 70%;
+  width: 100%;
 }
 
 ul {
@@ -52,7 +47,7 @@ ul {
 
 h1 {
   align-self: center;
-  color: #ffffff;
+  color: #000000;
   font-family: hwt-mardell, sans-serif;
   font-weight: 400;
   font-size: 5em;
@@ -61,40 +56,27 @@ h1 {
   width: 100%;
 }
 
-/* li {
-  border-radius: 5px;
-  color: #0e0f18;
-  cursor: pointer;
-  font-size: 30px;
-  height: fit-content;
-  margin: 5px;
-  padding: 15px;
-  width: 17%;
-} */
-
 li:hover {
   background-color: #ffffff;
   box-shadow: 5px 5px #000000;
   color: black;
 }
 
-aside {
-  border: 2px solid black;
-  grid-area:  Aside;
-  margin: 15px;
-}
-
 main {
   flex-wrap: wrap;
   grid-area: Main;
   justify-content: center;
-
   padding: 10px;
+}
+
+section {
+  align-items: center;
+  justify-content: center;
+  width: 70%;
 }
 
 footer {
   align-items: center;
-  border: 2px solid black;
   flex-wrap: wrap;
   grid-area: Footer;
   justify-content: center;
@@ -130,20 +112,22 @@ footer {
   width: 17%;
 }
 
-.new-release-h2 {
+.new-release-h2,
+.next-release-h2 {
   align-self: center;
   font-family: filicudi-solid, sans-serif;
   font-size: 3em;
   font-style: normal;
   font-weight: 400;
   text-align: center;
-  width: 70%;
+  width: 100%;
 }
 
-.bears-h3 {
+.bears-h3,
+.next-release-h3 {
   font-size: 2em;
   text-align: center;
-  width: 70%;
+  width: 100%;
 }
 
 .main-top-div {
@@ -166,6 +150,7 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 5%;
 }
 
 .about-img-container {
@@ -177,9 +162,9 @@ footer {
   width: 100%;
 }
 
-.about-paragraphs {
+.about-paragraphs,
+.next-release-paragraph {
   text-align: center;
-  /* width: 100%; */
 }
 
 .gallery-link {
