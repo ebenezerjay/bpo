@@ -91,7 +91,8 @@ footer {
   display: flex;
 }
 
-.header-about {
+.header-about,
+.header-gallery {
   margin-top: 5%;
 }
 
@@ -202,6 +203,20 @@ footer {
 
 .gallery-link {
   padding-left: 4px;
+}
+
+.gallery-images {
+  height: 50%;
+  width: 100%;
+}
+
+.main-gallery-section {
+  border: 1px solid black;
+  width: 70%;
+}
+
+.recent-gallery-div {
+  width: 50%;
 }
 
 .main-bottom-section {
